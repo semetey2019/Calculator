@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:tex_zadacha/inputs/inputs.dart';
+import 'package:tex_zadacha/inputs/search_page.dart';
+import 'package:tex_zadacha/inputs/search_page2.dart';
 import 'package:tex_zadacha/pages/first_page.dart';
 
 class MyApp extends StatelessWidget {
@@ -13,7 +16,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SignInPage(),
+      home: const SearchPage2(),
     );
   }
 }
