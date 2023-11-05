@@ -55,11 +55,11 @@ class _InputPageState extends State<InputPage> {
               fontWeight: FontWeight.w600,
             )),
         centerTitle: true,
-        leading: const Icon(
-          Icons.arrow_back_ios,
-          weight: 8,
-          size: 22,
-        ),
+        // leading: const Icon(
+        //   Icons.arrow_back_ios,
+        //   weight: 8,
+        //   size: 22,
+        // ),
       ),
       body: SingleChildScrollView(
         scrollDirection: Axis.vertical,
