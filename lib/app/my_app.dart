@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tex_zadacha/inputs/inputs.dart';
-import 'package:tex_zadacha/inputs/search_page.dart';
-import 'package:tex_zadacha/inputs/search_page2.dart';
-import 'package:tex_zadacha/pages/first_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:tex_zadacha/inputs/custom_widget.dart';
 import 'package:tex_zadacha/inputs/search_page.dart';
 
@@ -21,7 +20,6 @@ class _InputPageState extends State<InputPage> {
   final textController = TextEditingController();
   @override
   Widget build(BuildContext context) {
-    final height = MediaQuery.of(context).size.height;
     final width = MediaQuery.of(context).size.width;
 
     Future<void> changeMode(int value) async {
