@@ -10,7 +10,7 @@ class CalculatorPage extends StatefulWidget {
 }
 
 class _CalculatorPageState extends State<CalculatorPage> {
-  double firsNum = 0.0;
+  double firstNum = 0.0;
   double secondNum = 0.0;
   var input = "";
   var output = "";

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tex_zadacha/inputs/inputs.dart';
 import 'package:tex_zadacha/inputs/search_page.dart';
 
 class SearchPage2 extends StatefulWidget {
